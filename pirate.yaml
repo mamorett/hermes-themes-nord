@@ -1,0 +1,100 @@
+name: pirate
+description: Nord-themed pirate flag theme
+
+colors:
+  banner_border: "#4C566A"
+  banner_title: "#ECEFF4"
+  banner_accent: "#E5E9F0"
+  banner_dim: "#3B4252"
+  banner_text: "#D8DEE9"
+  ui_accent: "#ECEFF4"
+  ui_label: "#D8DEE9"
+  ui_ok: "#A3BE8C"
+  ui_error: "#BF616A"
+  ui_warn: "#EBCB8B"
+  prompt: "#E5E9F0"
+  input_rule: "#434C5E"
+  response_border: "#D8DEE9"
+  status_bar_bg: "#2E3440"
+  status_bar_text: "#D8DEE9"
+  status_bar_strong: "#ECEFF4"
+  status_bar_dim: "#3B4252"
+  status_bar_good: "#A3BE8C"
+  status_bar_warn: "#EBCB8B"
+  status_bar_bad: "#D08770"
+  status_bar_critical: "#BF616A"
+  voice_status_bg: "#2E3440"
+  completion_menu_bg: "#3B4252"
+  completion_menu_current_bg: "#4C566A"
+  completion_menu_meta_bg: "#434C5E"
+  completion_menu_meta_current_bg: "#5E81AC"
+  session_label: "#88C0D0"
+  session_border: "#3B4252"
+
+spinner:
+  waiting_faces:
+    - "(☠)"
+    - "(⚓)"
+    - "(⛵)"
+    - "(⚔)"
+    - "(☠)"
+  thinking_faces:
+    - "(☠)"
+    - "(⚓)"
+    - "(⛵)"
+    - "(⌁)"
+    - "(⚔)"
+  thinking_verbs:
+    - "hoisting the sails"
+    - "charting the course"
+    - "loading the cannons"
+    - "scanning the horizon"
+    - "reading the map"
+    - "tying the rigging"
+    - "swabbing the deck"
+    - "raising the flag"
+  wings:
+    - ["⟪☠", "☠⟫"]
+    - ["⟪⚓", "⚓⟫"]
+    - ["⟪⚔", "⚔⟫"]
+    - ["⟪⛵", "⛵⟫"]
+
+branding:
+  agent_name: "Pirate Agent"
+  welcome: "Ahoy! Welcome aboard, Captain. Type yer message or /help for orders."
+  goodbye: "Fair winds and following seas! ☠"
+  response_label: " ☠ Pirate "
+  prompt_symbol: "☠ ❯ "
+  help_header: "(☠) Captain's Orders"
+
+tool_prefix: "│"
+
+tool_emojis:
+  terminal: "⚔"
+  read_file: "📜"
+  search_files: "🔭"
+  web_search: "🧭"
+  write_file: "🪶"
+
+banner_logo: |
+  [bold #ECEFF4]██████╗ ██╗██████╗  █████╗ ████████╗███████╗       █████╗  ██████╗ ███████╗███╗   ██╗████████╗[/]
+  [bold #D8DEE9]██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝      ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝[/]
+  [#88C0D0]██████╔╝██║██████╔╝███████║   ██║   █████╗  █████╗███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║[/]
+  [#81A1C1]██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ╚════╝██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║[/]
+  [#5E81AC]██║     ██║██║  ██║██║  ██║   ██║   ███████╗      ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║[/]
+  [#4C566A]╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝      ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝[/]
+
+banner_hero: |
+  [#4C566A]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣾⣿⣿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⦠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⢻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣏⣾⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⠇[/]
+  [#81A1C1]⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠁⠀⣹⣿⡃⠀⢹⣟⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡏⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄⠀⠀⠀⠀⠀⠀⠰⣾⣿⣦⣶⡟⢹⣷⣤⣾⣷⡅⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⠀⠀⠈⣉⡻⣿⣿⣿⣿⡿⢟⠉⠀⠀⠀⠀⠀⠀⣠⣾⣿⡿⠋⠀⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⢿⣿⣦⡀⠀⠀⠀⢺⣷⠺⠿⠿⠿⢹⣿⠀⠀⠀⠀⠀⠀⣠⣾⣿⡿⠋⠁⠀⠀⠀⠀[/]
+  [#E5E9F0]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⡿⣷⣄⠀⠘⢿⣿⣿⣧⣷⣿⠏⠀⢀⣴⣾⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣽⠿⣷⣤⣉⠙⠙⣋⣥⣶⣾⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#D8DEE9]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣤⣤⣤⡿⣷⣼⡾⣿⣿⣿⣽⣾⡿⠟⠿⢿⣿⣿⣿⣶⣶⣆⣼⡿⣁⣀⣀⣀⣀⠀⠀⠀[/]
+  [#E5E9F0]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢿⡽⠛⠛⠛⠸⣿⡙⠛⠋⠉⠁⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠾⣿⡏⠾⠿⠿⣟⣿⣿⠂⠀⠀[/]
+  [#81A1C1]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣾⠟⠁⠀⠀⠀⠉⠃⠀⠀⠀⠀[/]
+  [dim #3B4252]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀no quarter given⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
